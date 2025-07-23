@@ -6,10 +6,11 @@
 
 ---
 
-## 🧠 Features (in progress)
+## 🧠 Features (Work in Progress)
 
 - [x] Detect highlighted text on any webpage
-- [ ] Floating "Explain" button near selected text
+- [x] Show floating "✨ Clarify" button near selection
+- [x] Display a stylish popup with the selected text
 - [ ] GPT-based explanations for selected text
 - [ ] Store confusing topics ("doubts") per session
 - [ ] Generate post-session quizzes based on doubts
@@ -20,33 +21,45 @@
 ## 🛠️ Tech Stack
 
 - Manifest V3 Chrome Extension
-- HTML + JS + CSS (Vanilla)
+- HTML + JavaScript + CSS (Vanilla)
 - OpenAI API (Coming soon)
 
 ---
 
 ## 🗓️ Current Status
 
-✅ Initial content script working  
-🔜 Next up: floating explain button + GPT call
+✅ Floating button & popup UI complete  
+🔜 Next up: GPT integration and dynamic explanation injection
 
 ---
 
-## 📌 Setup Instructions (coming soon)
+## 🧪 Demo Snapshot
 
-This section will include how to load it in Chrome via `chrome://extensions`.
+*Coming soon: Screenshot or GIF of the extension in action.*
+
+---
+
+## 📌 Setup Instructions
+
+1. Clone this repo or download the ZIP  
+2. Go to `chrome://extensions`  
+3. Enable **Developer Mode**  
+4. Click **Load Unpacked** and select the project folder  
+5. Navigate to any webpage → highlight some text → click ✨ Clarify
 
 ---
 
 ## 🤖 About the Developer
 
 👋 Built with caffeine and curiosity by [@zokash](https://github.com/zokash)  
-This is a 4th year CSE student project exploring browser-based AI learning assistants.
+A 4th-year CSE student project exploring how AI can make browser-based studying smarter and more intuitive.
 
 ---
 
 ## 📅 Dev Log
 
-> Started: July 20, 2025  
-> Day 1: Project initialized, GitHub push completed 🎉  
-> Day 2: Floating button + basic GPT integration (planned)
+> **Started:** July 20, 2025  
+> 🟢 **Day 1:** Project initialized, GitHub push set up  
+> 🟢 **Day 2:** Floating “Clarify” button implemented with custom styling + popup showing selected text  
+> 🔜 **Day 3:** GPT response integration for real-time explanations
+
