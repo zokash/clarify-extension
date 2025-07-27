@@ -12,7 +12,7 @@
 - [x] Show floating "✨ Clarify" button near selection
 - [x] Display a stylish popup with the selected text
 - [ ] GPT-based explanations for selected text
-- [ ] Store confusing topics ("doubts") per session
+- [x] Store confusing topics ("doubts") per session
 - [ ] Generate post-session quizzes based on doubts
 - [ ] Option to export quiz as a downloadable PDF
 
@@ -61,5 +61,9 @@ A 4th-year CSE student project exploring how AI can make browser-based studying 
 > **Started:** July 20, 2025  
 > 🟢 **Day 1:** Project initialized, GitHub push set up  
 > 🟢 **Day 2:** Floating “Clarify” button implemented with custom styling + popup showing selected text  
-> 🔜 **Day 3:** GPT response integration for real-time explanations
+> 🔜 **Day 3:** > Day 3:  
+> ▪ Implemented localStorage to track doubts  
+> ▪ Added "Finish Session" button with confirm dialog  
+> ▪ Learned how browser confirm(), stringify/parse, and session handling works  
+
 
